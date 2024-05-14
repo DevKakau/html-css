@@ -1,0 +1,77 @@
+
+body {
+    background-color: darkgray;
+    background-image: url(imagens/pexels-pixabay-164634.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+header { 
+    color: white;
+    font-size: 2rem;
+}
+h1 {
+    text-shadow: 3px 3px 4px black;
+}
+
+main {
+    border-radius: 10px;
+    max-width: 2000px;
+    min-width: 100vh;
+    margin: auto;
+    position: relative;
+}
+
+
+div.carros {
+    border: 2px solid rgba(143, 143, 143, 0);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    height: 350px;
+    background-size: cover;
+    box-shadow: 3px 3px 10px 4px black;
+}
+
+#c1 {
+    background-image: url(imagens/pexels-dante-juhasz-62201650-11685469.jpg);
+    background-position: center;
+}
+
+#c2 {
+    background-image: url(imagens/pexels-filiamariss-14753126.jpg);
+    background-position: center;
+
+}
+
+#c3 {
+    background-image: url(imagens/pexels-joshuaklr-757181.jpg);
+    background-position: center;
+}
+
+#c4 {
+    background-image: url(imagens/pexels-matus-burian-6692972-5975528.jpg);
+    background-position: bottom;
+}
+
+#c5 {
+    background-image: url(imagens/pexels-miguel-almeida-2661772-14555925.jpg);
+    background-position: center;
+}
+
+#c6 {
+    background-image: url(imagens/pexels-pixabay-248687.jpg);
+    background-position: center;
+    
+}
+
+#c7 {
+    background-image: url(imagens/pexels-sanaan-6573336.jpg);
+    background-position: center;
+    
+}
+
