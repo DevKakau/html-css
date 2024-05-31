@@ -4,107 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horario</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body> 
+    <header>
+        <h1>Meu Horario</h1>
+    </header>
 
-<style>
-    
-    h1 {
-        text-align: center;
-    }
+    <main>
+        <table>
+            <caption>Horario escolar</caption>
+            <thead>
+                <tr class="cabecalho">
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Matemática</td>
+                    <td>Portugues</td>
+                    <td>História</td>
+                    <td>Filosofia</td>
+                    <td>Artes</td>
+                </tr>
+                <tr>
+                    <td>Fisica</td>
+                    <td>Geografia</td>
+                    <td>Lógica</td>
+                    <td>Biologia</td>
+                    <td>Inglês</td>
+                </tr>
+                <tr>
+                    <td>Fisica</td>
+                    <td>Geografia</td>
+                    <td>Matemática</td>
+                    <td>Biologia</td>
+                    <td>Inglês</td>
+                </tr>
+                <tr>
+                    <td>Portugues</td>
+                    <td>História</td>
+                    <td>Matemática</td>
+                    <td>Programação</td>
+                    <td class="vazio"></td>
+                </tr>
+                <tr>
+                    <td>Portugues</td>
+                    <td class="vazio"></td>
+                    <td class="vazio"></td>
+                    <td>Programação</td>
+                    <td class="vazio"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 
-    table {
-        border-collapse: collapse;
-        width: 85vh;
-        height: 50vh;
-        font-family: Arial, Helvetica, sans-serif;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    td, th {
-        border: 1px solid black;
-        width: 200px;
-        height: 50px;
-        text-align: center;
-        font-weight: bold;
-    }
-
-    .cabecalho {
-        background-color: orange;
-    }
-    
-    td {
-        background-color: rgba(48, 47, 47, 0.466);
-        color: white;
-    }
-    
-    .vazio {
-        background-color: rgba(219, 63, 63, 0.884);
-    }
-
-    caption {
-        font-size: 1.5em;
-        font-weight: bold;
-        background-color: rgb(160, 159, 159);
-        padding: 10px;
-    }
-
-</style>
-<body>
-    <h1>Criando meu Horario</h1>
-
-    <table>
-        <caption>Horario escolar</caption>
-        <thead>
-            <tr class="cabecalho">
-                <th>Segunda</th>
-                <th>Terça</th>
-                <th>Quarta</th>
-                <th>Quinta</th>
-                <th>Sexta</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>Matemática</td>
-                <td>Portugues</td>
-                <td>História</td>
-                <td>Filosofia</td>
-                <td>Artes</td>
-            </tr>
-            <tr>
-                <td>Fisica</td>
-                <td>Geografia</td>
-                <td>Lógica</td>
-                <td>Biologia</td>
-                <td>Inglês</td>
-            </tr>
-            <tr>
-                <td>Fisica</td>
-                <td>Geografia</td>
-                <td>Matemática</td>
-                <td>Biologia</td>
-                <td>Inglês</td>
-            </tr>
-            <tr>
-                <td>Portugues</td>
-                <td>História</td>
-                <td>Matemática</td>
-                <td>Programação</td>
-                <td class="vazio"></td>
-            </tr>
-            <tr>
-                <td>Portugues</td>
-                <td class="vazio"></td>
-                <td class="vazio"></td>
-                <td>Programação</td>
-                <td class="vazio"></td>
-            </tr>
-
-        </tbody>
-    </table>
+    <footer>
+        <p>&copy;Criado por Kauã Wikleff</p>
+    </footer>
 </body>
 </html>
