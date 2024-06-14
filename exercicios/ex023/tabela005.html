@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando colunas com Colgrup</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td 
+        {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.cnome {
+            background-color: yellow;
+        }
+
+        col.cidade {
+            background-color: red;
+        }
+        col.csexo {
+            background-color: purple;
+        }
+        col.cprofissao {
+            background-color: mediumaquamarine;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Cadastro</caption>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="cidade">
+            <col class="csexo">
+            <col class="cprofissao">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">sexo</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>24</td>
+                <td>F</td>
+                <td>Gari</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>24</td>
+                <td>F</td>
+                <td>Gari</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>24</td>
+                <td>F</td>
+                <td>Gari</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>24</td>
+                <td>F</td>
+                <td>Gari</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>24</td>
+                <td>F</td>
+                <td>Gari</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
