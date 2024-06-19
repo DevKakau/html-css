@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudos de iframe</title>
+  </head>
+  <body>
+    <h1>Testanto o uso de iframe</h1>
+
+    <!-- Criamos um ifrma e colocamos a url do curso em video, e dentro da tag iframe temos um link e uma mensagem de segurança caso não seja possivel o utilizar o iframe por conta do navegador ou medidas de segurança -->
+    <p>
+      Acessando o site do
+      <iframe src="https://cursoemvideo.com" frameborder="0">
+        <a href="https://cursoemvideo.com">Curso em video</a>
+      </iframe>
+      para aprender a programar.
+    </p>
+
+    <!-- Segundo exemplo de iframe com o site do google, aqui veremos que não vai ser possivel ter um iframe do google por segurança do proprio, e podemos fazer logo uma medida pra esse caso como no exemplo acima -->
+
+    <p>
+        Acessando o site do 
+
+        <iframe src="https://google.com.br" frameborder="0">
+            <a href="https://google.com.br">Google</a>
+        </iframe>
+
+        para pesquisa
+    </p>
+
+  </body>
+</html>
