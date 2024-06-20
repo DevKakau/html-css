@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando iframe</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+        }
+        iframe {
+            width: 100vw;
+            height: 500px;
+            background-color: lightgray;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: blue;
+        }
+        .terra {
+            width: 100%;
+            border-radius: 0px
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Praticando iframe</h1>
+        <p>
+            <iframe src="https://nasa.com" frameborder="0" height="600px" width="600px"></iframe>
+        </p>
+        <p>
+            <iframe src="https://github.io" frameborder="0"></iframe>
+        </p>
+        <p>
+            <iframe src="https://trivago.com.br" frameborder="0"></iframe>
+        </p>
+    </div>
+
+    <p>
+        fatos interessantes sobre a terra: 
+         veja ao lado ou embaixo: 
+    </p><iframe src="https://www.galeriadometeorito.com/2017/09/10-curiosidades-sobre-a-terra.html" frameborder="0" class="terra"></iframe>
+</body>
+</html>
